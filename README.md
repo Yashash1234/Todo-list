@@ -1,5 +1,4 @@
-Sure! Here’s the full README.md in a single block ready to copy-paste:
-
+```markdown
 # React Todo App with Context API
 
 A simple **Todo application** built with React that demonstrates state management using **Context API**.  
@@ -24,17 +23,18 @@ Features include adding, editing, deleting, and marking todos as complete, with 
 
 ## Project Structure
 
-
+```
 
 /src
 ├── /components
-│ ├── TodoForm.jsx
-│ └── TodoItem.jsx
+│    ├── TodoForm.jsx
+│    └── TodoItem.jsx
 ├── /context
-│ └── context.js
+│    └── context.js
 ├── App.jsx
 └── index.js
 
+````
 
 ## Installation
 
@@ -42,49 +42,54 @@ Features include adding, editing, deleting, and marking todos as complete, with 
 
 ```bash
 git clone <repository-url>
+````
 
+2. Navigate to the project folder:
 
-Navigate to the project folder:
-
+```bash
 cd react-todo-context
+```
 
+3. Install dependencies:
 
-Install dependencies:
-
+```bash
 npm install
+```
 
+4. Run the development server:
 
-Run the development server:
-
+```bash
 npm run dev
+```
 
+The app should now be available at [http://localhost:5173](http://localhost:5173).
 
-The app should now be available at http://localhost:5173
-.
+## Usage
 
-Usage
+1. Type a todo in the input box and click **Add**.
+2. Click the **✏️ Edit** button to modify a todo.
+3. Click the **📁 Save** button to save changes.
+4. Use the checkbox to mark a todo as complete.
+5. Click the **❌ Delete** button to remove a todo.
 
-Type a todo in the input box and click Add.
+## Notes
 
-Click the ✏️ Edit button to modify a todo.
+* Todos are saved in `localStorage`, so refreshing the page will retain your list.
+* The app uses **Context API** to avoid prop drilling and manage global state.
 
-Click the 📁 Save button to save changes.
+## Author
 
-Use the checkbox to mark a todo as complete.
+**Yashash P.**
 
-Click the ❌ Delete button to remove a todo.
+```
 
-Notes
+---
 
-Todos are saved in localStorage, so refreshing the page will retain your list.
+Notice:  
+- Only the sections that are **actual code** are inside triple backticks (like `/src` structure or bash commands).  
+- Everything else stays as normal Markdown text.  
 
-The app uses Context API to avoid prop drilling and manage global state.
+If you want, I can make an **even cleaner version with badges and links** that will look **professional on GitHub**.  
 
-Author
-
-Yashash P.
-
-
-You can copy this directly as `README.md` for your project.  
-
-If you want, I can also **add a “Live Demo” and badges** so it looks more professional on GitHub. Do you
+Do you want me to do that?
+```
