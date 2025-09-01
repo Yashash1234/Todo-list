@@ -1,4 +1,4 @@
-```markdown
+
 # React Todo App with Context API
 
 A simple **Todo application** built with React that demonstrates state management using **Context API**.  
@@ -23,7 +23,7 @@ Features include adding, editing, deleting, and marking todos as complete, with 
 
 ## Project Structure
 
-```
+```bash
 
 /src
 ├── /components
@@ -34,7 +34,7 @@ Features include adding, editing, deleting, and marking todos as complete, with 
 ├── App.jsx
 └── index.js
 
-````
+```
 
 ## Installation
 
@@ -79,17 +79,5 @@ The app should now be available at [http://localhost:5173](http://localhost:5173
 
 ## Author
 
-**Yashash P.**
+**Yashash P**
 
-```
-
----
-
-Notice:  
-- Only the sections that are **actual code** are inside triple backticks (like `/src` structure or bash commands).  
-- Everything else stays as normal Markdown text.  
-
-If you want, I can make an **even cleaner version with badges and links** that will look **professional on GitHub**.  
-
-Do you want me to do that?
-```
