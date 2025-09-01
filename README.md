@@ -1,12 +1,90 @@
-# React + Vite
+Sure! Here’s the full README.md in a single block ready to copy-paste:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# React Todo App with Context API
 
-Currently, two official plugins are available:
+A simple **Todo application** built with React that demonstrates state management using **Context API**.  
+Features include adding, editing, deleting, and marking todos as complete, with persistence via **localStorage**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Add new todos
+- Edit existing todos
+- Delete todos
+- Mark todos as complete/incomplete
+- Persistent state using `localStorage`
+- Global state management with **Context API**
+- Responsive and styled with Tailwind CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used
+
+- **React** (functional components, hooks)
+- **Context API** for global state
+- **Tailwind CSS** for styling
+- **localStorage** for data persistence
+
+## Project Structure
+
+
+
+/src
+├── /components
+│ ├── TodoForm.jsx
+│ └── TodoItem.jsx
+├── /context
+│ └── context.js
+├── App.jsx
+└── index.js
+
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone <repository-url>
+
+
+Navigate to the project folder:
+
+cd react-todo-context
+
+
+Install dependencies:
+
+npm install
+
+
+Run the development server:
+
+npm run dev
+
+
+The app should now be available at http://localhost:5173
+.
+
+Usage
+
+Type a todo in the input box and click Add.
+
+Click the ✏️ Edit button to modify a todo.
+
+Click the 📁 Save button to save changes.
+
+Use the checkbox to mark a todo as complete.
+
+Click the ❌ Delete button to remove a todo.
+
+Notes
+
+Todos are saved in localStorage, so refreshing the page will retain your list.
+
+The app uses Context API to avoid prop drilling and manage global state.
+
+Author
+
+Yashash P.
+
+
+You can copy this directly as `README.md` for your project.  
+
+If you want, I can also **add a “Live Demo” and badges** so it looks more professional on GitHub. Do you
